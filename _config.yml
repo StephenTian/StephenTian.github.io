@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: StephenTian
+subtitle: No BB, show me the code
+description:  stephentian 的技术博客, 及日常
 keywords:
-author: John Doe
-language:
+author: Stephen Tian
+language: zh-CN
 timezone:
 
 # URL
@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:stephentian/StephenTian.github.io.git
+  branch: develop
